@@ -1,0 +1,28 @@
+N1 N2 N3
+0 sample 1
+0 sample 2
+0 sample 3
+t1 merge 3 2
+t2 merge 1 3
+t2 varNe 1 Nx
+
+####
+N1 N2 N3
+0 sample 1
+0 sample 2
+0 sample 3
+t3 merge 1 2
+t4 merge 1 3
+t4 varNe 1 Nx
+
+####
+N1 N2 N3
+0 sample 1
+0 sample 2
+0 sample 3
+t5 merge 1 3
+t6 merge 1 2
+t6 varNe 1 Nx
+
+####
+define priors: t1<t2, t3<t4, t5<t6

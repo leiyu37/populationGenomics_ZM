@@ -1,0 +1,62 @@
+/var/spool/slurmd/job5530360/slurm_script: line 12: cd: /gxfs_work1/fs1/work-geomar/smomw353/popGenomics/A_WGR_final/zmzj/05_SNAPP_v3/01_select03: No such file or directory
+
+VCFtools - 0.1.15
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--vcf /gxfs_work1/fs1/work-geomar/smomw353/popGenomics/A_WGR_final/zmzj/04_rmSamples/03_synonymousSNP.recode.vcf
+	--keep 01_targetSamples.txt
+	--recode-INFO-all
+	--out 01_targetSamples
+	--recode
+
+Keeping individuals in 'keep' list
+After filtering, kept 29 out of 154 Individuals
+Outputting VCF file...
+After filtering, kept 171756 out of a possible 171756 Sites
+Run Time = 18.00 seconds
+
+VCFtools - 0.1.15
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--vcf 01_targetSamples.recode.vcf
+	--recode-INFO-all
+	--mac 1
+	--out 02_mac1
+	--recode
+
+After filtering, kept 29 out of 29 Individuals
+Outputting VCF file...
+After filtering, kept 127173 out of a possible 171756 Sites
+Run Time = 9.00 seconds
+
+VCFtools - 0.1.15
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--vcf 02_mac1.recode.vcf
+	--recode-INFO-all
+	--max-missing 1
+	--out 03_rmMissing
+	--recode
+
+After filtering, kept 29 out of 29 Individuals
+Outputting VCF file...
+After filtering, kept 33825 out of a possible 127173 Sites
+Run Time = 3.00 seconds
+
+VCFtools - 0.1.15
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--vcf 03_rmMissing.recode.vcf
+	--recode-INFO-all
+	--thin 3000
+	--out 04_thin3000
+	--recode
+
+After filtering, kept 29 out of 29 Individuals
+Outputting VCF file...
+After filtering, kept 5876 out of a possible 33825 Sites
+Run Time = 1.00 seconds

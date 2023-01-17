@@ -1,0 +1,25 @@
+File: snapp.xml seed: 1660199673158 threads: 24
+Loading package SNAPP v1.5.1
+Loading package BEAST v2.6.3
+Loading package BEASTLabs v1.9.6
+Loading package SA v2.0.2
+Loading package BEAST v2.6.3
+ALI: 6166 5
+ASL: 6166 5
+CZ: 6166 5
+FR: 6166 5
+JN: 6166 5
+JS: 6166 5
+MA: 6166 5
+NC: 6166 5
+NN: 6166 5
+PO: 6166 5
+QU: 6166 5
+SD: 6166 5
+SW: 6166 5
+WN: 6166 5
+Zjaponica: 6166 3
+WARNING: kappa parameter not set for SnAPPrior. using default value of 1.0
+Rate prior = uniform
+Log Likelihood Correction = -1447.861478650182
+End likelihood: -15434.056398174516

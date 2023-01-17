@@ -1,0 +1,46 @@
+
+VCFtools - 0.1.15
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--vcf /gxfs_work1/fs1/work-geomar/smomw353/A_WGR_final/02_hardFiltering/06_HQsnp.vcf
+	--remove rmSamples.txt
+	--recode-INFO-all
+	--out 01_rmSamples
+	--recode
+
+Excluding individuals in 'exclude' list
+After filtering, kept 153 out of 190 Individuals
+Outputting VCF file...
+After filtering, kept 3892668 out of a possible 3892668 Sites
+Run Time = 1189.00 seconds
+
+VCFtools - 0.1.15
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--vcf 01_rmSamples.recode.vcf
+	--recode-INFO-all
+	--max-missing 1
+	--out 02_noMissing
+	--recode
+
+After filtering, kept 153 out of 153 Individuals
+Outputting VCF file...
+After filtering, kept 787518 out of a possible 3892668 Sites
+Run Time = 311.00 seconds
+
+VCFtools - 0.1.15
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--vcf 02_noMissing.recode.vcf
+	--recode-INFO-all
+	--mac 1
+	--out 03_mac1
+	--recode
+
+After filtering, kept 153 out of 153 Individuals
+Outputting VCF file...
+After filtering, kept 782652 out of a possible 787518 Sites
+Run Time = 234.00 seconds
